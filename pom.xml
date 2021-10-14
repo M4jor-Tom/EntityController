@@ -37,10 +37,10 @@
 		</dependency>
 		<dependency>
 			<groupId>com.M4jor-Tom</groupId>
-			<artifactId>JpaEntitor</artifactId>
-			<version>0.0.2</version>
+			<artifactId>jpa-entitor</artifactId>
+			<version>0.0.31</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/dependencies/JpaEntitor-0.0.2.jar</systemPath>
+			<systemPath>${basedir}/dependencies/JpaEntitor-0.0.31.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

@@ -3,9 +3,9 @@ package entitycontroller.controllers;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import jpaentitor.entities.Primable;
+import jpaentitor.entities.Primed;
 
-public interface EntityController<T extends Primable> {
+public interface EntityController<T extends Primed> {
 	public String list(Model model);
 
 	public String show(@PathVariable Integer id, Model model);
@@ -14,7 +14,7 @@ public interface EntityController<T extends Primable> {
 
 	public String newObject(Model model);
 
-	public String save(Primable primable);
+	public String save(T primed);
 
 	public String delete(@PathVariable Integer id);
 }
